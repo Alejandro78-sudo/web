@@ -1,8 +1,9 @@
 body {
     background-color: #fff8f0;
     color: #3E2C23;
-    font-family: "montserrat" sans-serif;
+    font-family: "montserrat", sans-serif;
     margin: 0;
+    padding_top: 80px; /* espacio para que el h1 no quede pegado al nav*/
 }
 
 nav {
