@@ -20,14 +20,19 @@ nav {
 }
 
 nav a {
+    margin: 0 0.05rem;
     color: white;
     text-decoration: none;
-    margin: 0 15px;
     font-weight: bold;
 }
 
 nav a:hover {
     text-decoration: underline;
+}
+section {
+  margin: 40px auto;
+  max-width: 800px;
+  animation: fadeIn 1s ease-in;
 }
 
 h1,
@@ -36,12 +41,7 @@ color: #C1440E;
     margin: 20px auto 25px auto; /* centrado horizontalmente si quieres */
 }
 
-section {
-    background-color: #E6B89C;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-    border-radius: 8px;
-}
+
 
 .bloque {
     padding: 1rem;
