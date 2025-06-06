@@ -1,0 +1,141 @@
+body {
+    background-color: #ffe7c2;
+    font-family: "Montserrat", sans-serif;
+    color: #331a00;
+    margin: 0;
+    
+}
+
+
+/* Navegación */
+nav {
+    position: fixed;
+    top: 0;
+    width: 99%;
+    background-color: #c04d00;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1000;
+    margin: auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+fieldset {
+    border: 2px solid #ffa552;
+    border-radius: 8px;
+    padding: 8px 12px 20px 12px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff6ec;
+}
+
+legend {
+    padding: 0 6px;
+    color: #666;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #ff5e00;
+    text-align: center;
+    margin: 20px 0 10px 0;
+    text-transform: uppercase;
+    padding: 30px;
+    font-weight: 400;
+    margin: 25px;
+}
+
+h2 {
+    color: #b33f00;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 25px;
+}
+
+p {
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul,
+ol {
+    background-color: #ffefd5;
+    padding: 15px 25px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ffbc75;
+}
+
+li {
+    color: black;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding: 4px 0;
+    line-height: 1.4;
+}
+
+.card {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.card_img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 6px 14px rgba(255, 94, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card_img:hover {
+    transform: scale(1.03);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav div {
+        margin-bottom: 0.5rem;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
